@@ -3,42 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wala' Essam Ashqar - Portfolio</title>
+    <title>My Portfolio</title>
 </head>
 <body>
-    <!-- Header Section: Contains the main title of the page -->
+    <!-- header 1 section with my name -->
     <header>
         <h1>Wala' Essam Ashqar</h1>
+
+        <!-- Navigation bar at the top of the page & use a table to  display it horizontally -->
+        <nav>
+            <table width="100%">
+                <tr>
+                    <!-- Link to About section -->
+                    <td><a href="#about">About</a></td>
+                    <!-- Link to Projects section -->
+                    <td><a href="#projects">Projects</a></td>
+                    <!-- Link to Contact Me page -->
+                    <td><a href="contact-me.html">Contact Me</a></td>
+                </tr>
+            </table>
+        </nav>
     </header>
 
-    <!-- Navigation Section: Provides links to different parts of the portfolio -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="contact-me.html">Contact Me</a></li>
-        </ul>
-    </nav>
-
-    <!-- About Me Section: Describes who you are -->
+    <!-- Section describing who I am and information about me -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I’m Wala' Essam Ashqar, a passionate developer with an interest in web technologies and software development.</p>
+        <!-- Paragraph contains an introduction about my skills and aspirations -->
+        <p>Hello! I'm Wala' Essam Ashqar. I am a frontend Web developer. I enjoy coding and creating pages using HTML, CSS & JavaScript. I would like to learn more about the React framework and become able to create different pages with all possible features. I hope to become proficient and skilled in this field.</p>
     </section>
 
-    <!-- Projects Section: Lists your projects with descriptions and images -->
+    <!-- Section to show my projects -->
     <section id="projects">
         <h2>Projects</h2>
         <ul>
             <li>
-                <h3>Project 1: Portfolio Website</h3>
-                <p>This is a simple portfolio website created using HTML and CSS.</p>
-                <img src="https://via.placeholder.com/150" alt="Portfolio Project Image">
+                <!-- Description of First Project -->
+                <h3>First Project: Swebak Bakery</h3>
+                <p>This project is about a web page for a bakery called Swebak Bakery.</p>
+                <img src="photos/image.png" width="600" alt="First Project">
+                <br>
+                <!-- Link to the GitHub for First Project -->
+                <a href="https://github.com/Walaessam27/projectweb" target="_blank">View on GitHub</a>
             </li>
             <li>
-                <h3>Project 2: E-commerce Platform</h3>
-                <p>A basic e-commerce platform built using modern web technologies.</p>
-                <img src="https://via.placeholder.com/150" alt="E-commerce Project Image">
+                <!-- Description of Second Project -->
+                <h3>Second Project: CarAcc.DW</h3>
+                <p>This project is for a car accessories company called CarAcc.DW. We have not made a web page for it yet, but we use Java for coding, and it works on the terminal.</p>
+                <img src="photos/image1.png" width="600" alt="Second Project">
+                <br>
+                <!-- Link to the GitHub for Second Project -->
+                <a href="https://github.com/Wala-essam27/CarAcc.DW" target="_blank">View on GitHub</a>
             </li>
         </ul>
     </section>

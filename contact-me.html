@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <!-- header 1 -->
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <!-- Contact form section -->
+    <!-- This form is to send a message -->
+    <form action="#" method="post">
+        <!-- Using a table layout to organize the form -->
+        <table cellspacing="2" cellpadding="10">
+            <tr>
+                <!-- Label and input for name -->
+                <td><label for="name">Name:</label></td>
+                <td>
+                    <!-- Name format must start with a letter & can contain numbers -->
+                    <input type="text" id="name" name="name" required 
+                           pattern="[A-Za-z][A-Za-z0-9]*" 
+                           title="Name must start with a letter and can only contain letters and numbers">
+                </td>
+            </tr>
+            <tr>
+                <!-- Label and input for email -->
+                <td><label for="email">Email:</label></td>
+                <td>
+                    <!-- Email format -->
+                    <input type="email" id="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <!-- Label and textarea for message -->
+                <td><label for="message">Message:</label></td>
+                <td>
+                    <!-- Larger textarea for message -->
+                    <textarea id="message" name="message" rows="10" cols="20" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <!-- Submit button -->
+                <td colspan="2">
+                    <input type="submit" value="Send" style="width: 100%; padding: 10px; border: none; background-color: #333; color: #fff; border-radius: 4px; cursor: pointer;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
